@@ -12,12 +12,12 @@ API_HASH = os.environ.get("API_HASH", "abef347dcf8108d1e0d5a34f8a142e83")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "8344443883"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://Sandeshgod:Fo1wOMUcCGgRZpTd@sandesh.patuk22.mongodb.net/telegrambot?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
+DB_NAME = os.environ.get("DB_NAME", "telegrambot")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003837449137"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003782022208"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
