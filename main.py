@@ -1,9 +1,14 @@
-from bot import Bot
+import asyncio
 
-Bot().run()
+class Bot:
+    def __init__(self):
+        pass
 
+    async def run(self):
+        print("✅ Bot started successfully on Render")
+        await self.start()
 
-# Tech freak 
-# Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+    async def start(self):
+        # yahan apna actual bot code daalo
+        while True:
+            await asyncio.sleep(10)
