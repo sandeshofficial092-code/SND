@@ -37,8 +37,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6299192020 ,6016699737, 5000956033]
-    for x in (os.environ.get("ADMINS", "6299192020").split()):
+    ADMINS=[8344443883]
+    for x in (os.environ.get("ADMINS", "8344443883").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -75,7 +75,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} Yo
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6299192020)
+ADMINS.append(8344443883)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
