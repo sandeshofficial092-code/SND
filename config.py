@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8601403591:AAG-5BeQqAuyixg4OseBZfFxa4T9qvfpRFs")
+API_ID = int(os.environ.get("API_ID", "22993294"))
+API_HASH = os.environ.get("API_HASH", "abef347dcf8108d1e0d5a34f8a142e83")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
-DB_URL = os.environ.get("DB_URL", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8344443883"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Sandeshgod:Fo1wOMUcCGgRZpTd@sandesh.patuk22.mongodb.net/telegrambot?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
 
 
